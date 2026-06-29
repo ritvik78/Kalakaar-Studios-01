@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <rect width="1200" height="630" fill="#111111"/>
+  <defs>
+    <linearGradient id="g" x1="120" y1="90" x2="1080" y2="540" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E2231A"/>
+      <stop offset="0.5" stop-color="#C0C0C0"/>
+      <stop offset="1" stop-color="#FFD500"/>
+    </linearGradient>
+  </defs>
+  <circle cx="230" cy="150" r="110" fill="#E2231A" opacity="0.45"/>
+  <circle cx="980" cy="470" r="190" fill="#FFD500" opacity="0.25"/>
+  <rect x="150" y="150" width="900" height="330" rx="42" fill="url(#g)" opacity="0.25"/>
+  <text x="150" y="270" fill="white" font-size="72" font-family="Montserrat, Arial, sans-serif" font-weight="800" letter-spacing="8">KALAKAAR</text>
+  <text x="150" y="350" fill="#FFFFFF" font-size="36" font-family="Inter, Arial, sans-serif" opacity="0.85">Premium talent booking with glossy metallic motion</text>
+  <text x="150" y="410" fill="#FFD500" font-size="28" font-family="Bebas Neue, Arial, sans-serif" letter-spacing="6">DIET COKE INSPIRED</text>
+</svg>

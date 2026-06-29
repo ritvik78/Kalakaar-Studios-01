@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-[#FFFEF9] text-[#1a1a1a] antialiased;
+  background-image:
+    radial-gradient(circle at top, rgba(255,213,0,0.08), transparent 30%),
+    linear-gradient(180deg, rgba(255,254,249,1) 0%, rgba(255,250,230,1) 40%, rgba(255,254,249,1) 100%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: rgba(255, 213, 0, 0.35);
+  color: #1a1a1a;
+}
+
+.font-display {
+  font-family: var(--font-display), system-ui, sans-serif;
+}
+
+.font-body {
+  font-family: var(--font-body), system-ui, sans-serif;
+}
+
+.font-accent {
+  font-family: var(--font-accent), system-ui, sans-serif;
+}
+
+.input-style {
+  @apply w-full rounded-[1.1rem] border border-gray-300 bg-white px-4 py-3 text-[#1a1a1a] outline-none transition placeholder:text-gray-400 focus:border-yellow-500 focus:ring-2 focus:ring-yellow-200;
+}
+
+@keyframes scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-33.333%); }
+}
