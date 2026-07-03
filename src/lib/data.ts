@@ -85,7 +85,7 @@ const categorySeeds = [
   ['Technical', 'Motion capture, live show, and hybrid production specialists.'],
 ] as const;
 
-const talentSeeds = [
+const talentSeeds: Array<[string, string, string, string, number, string, string[]]> = [
   ['Aarav Malhotra', 'Actor', 'Mumbai', 'Hindi, English', 18500, 'Cinema and brand films with a premium, calm screen presence.', ['Brand films', 'OTT', 'Luxury retail']],
   ['Nia Sen', 'Host', 'Delhi', 'Hindi, English', 12000, 'Fast on the mic, polished on stage, and strong with live resets.', ['Conferences', 'Awards', 'Launches']],
   ['Eshan Rao', 'Musician', 'Bengaluru', 'English, Kannada', 22000, 'Singer-guitarist with a cinematic set and strong crowd control.', ['Private events', 'Concerts', 'Brand activations']],
