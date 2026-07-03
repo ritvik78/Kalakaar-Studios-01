@@ -17,7 +17,7 @@ export function HomeHero() {
         {heroImage ? (
           <Image src={heroImage} alt="Premium talent setup" fill priority className="object-cover object-center opacity-15 mix-blend-multiply" />
         ) : null}
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(226,35,26,0.15),transparent_36%),linear-gradient(120deg,rgba(255,254,249,0.96),rgba(255,250,230,0.84)_45%,rgba(242,183,5,0.08)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(226,35,26,0.15),transparent_36%),linear-gradient(120deg,rgba(255,254,249,0.96),rgba(255,250,230,0.84)_45%,rgba(242,183,5,0.08))]" />
         <div className="absolute inset-0 bg-pinstripe opacity-5" />
         <div className="absolute inset-0 bg-fizz opacity-10" />
       </div>
