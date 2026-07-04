@@ -35,7 +35,7 @@ export function HomeHero() {
             Talent booking for launches that need to feel sharp.
           </h1>
           <p className="mt-6 max-w-2xl text-base leading-8 text-gray-700 sm:text-lg">
-            A premium roster, rapid shortlists, and a glass-forward booking experience for brands, producers, and event teams that want speed without losing control.
+            Building meaningful connections through our network to spread happiness, inspire creativity, and create lasting experiences..
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
             <GlossButton href="/booking">Start booking <ArrowRight className="h-4 w-4" /></GlossButton>

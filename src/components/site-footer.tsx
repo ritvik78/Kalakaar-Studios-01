@@ -15,7 +15,7 @@ export function SiteFooter() {
     <footer className="border-t border-gray-300 bg-white">
       <div className="mx-auto grid w-full max-w-7xl gap-10 px-4 py-14 sm:px-6 lg:grid-cols-[1.2fr_0.8fr_0.8fr] lg:px-8">
         <div className="max-w-xl">
-          <p className="font-display text-2xl font-black uppercase tracking-[0.22em] text-[#1a1a1a]">Kalakaar</p>
+          <p className="font-display text-2xl font-black uppercase tracking-[0.22em] text-[#1a1a1a]">Kalakaar Network</p>
           <p className="mt-4 text-sm leading-7 text-gray-600">
             Premium talent management and booking with a brushed-metal visual language, fast response loops, and a roster designed for launches, live events, and content-led campaigns.
           </p>
