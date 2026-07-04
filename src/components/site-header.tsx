@@ -33,7 +33,7 @@ export function SiteHeader() {
             <Sparkles className="h-5 w-5 text-yellow-600 transition duration-300 group-hover:rotate-12" />
           </span>
           <span className="flex flex-col">
-            <span className="font-display text-lg font-black tracking-[0.22em] text-[#1a1a1a] uppercase">Kalakaar</span>
+            <span className="font-display text-lg font-black tracking-[0.22em] text-[#1a1a1a] uppercase">Kalakaar Network</span>
             <span className="text-xs uppercase tracking-[0.32em] text-gray-600">Talent & booking</span>
           </span>
         </Link>
