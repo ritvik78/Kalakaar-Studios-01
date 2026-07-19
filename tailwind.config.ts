@@ -40,15 +40,15 @@ const config: Config = {
         90: '0.9',
         95: '0.95',
       },
-      boxShadow: {
-        glass: '0 20px 60px rgba(26, 26, 26, 0.25)',
-        glow: '0 0 0 1px rgba(255, 213, 0, 0.28), 0 16px 42px rgba(226, 35, 26, 0.22)',
-      },
-      backgroundImage: {
-        'metallic-sheen': 'linear-gradient(120deg, rgba(255,255,255,0.92) 0%, rgba(255,255,255,0.2) 18%, rgba(192,192,192,0.92) 38%, rgba(58,58,58,0.94) 58%, rgba(255,255,255,0.12) 84%, rgba(255,255,255,0.86) 100%)',
-        'pinstripe': 'repeating-linear-gradient(135deg, rgba(255,255,255,0.18) 0 2px, rgba(255,255,255,0.04) 2px 8px)',
-        'fizz': 'radial-gradient(circle at 20% 20%, rgba(255,255,255,0.4) 0 2px, transparent 3px), radial-gradient(circle at 80% 60%, rgba(255,213,0,0.35) 0 2px, transparent 3px), radial-gradient(circle at 50% 80%, rgba(255,255,255,0.25) 0 1px, transparent 2px)',
-      },
+boxShadow: {
+  glass: '0 20px 60px rgba(26, 26, 26, 0.25)',
+  glow: '0 0 0 1px rgba(168, 85, 247, 0.3), 0 16px 42px rgba(147, 51, 234, 0.22)',
+},
+backgroundImage: {
+  'metallic-sheen': 'linear-gradient(120deg, rgba(255,255,255,0.92) 0%, rgba(255,255,255,0.15) 18%, rgba(168,85,247,0.08) 38%, rgba(79,70,229,0.14) 58%, rgba(255,255,255,0.08) 84%, rgba(255,255,255,0.8) 100%)',
+  'pinstripe': 'repeating-linear-gradient(135deg, rgba(255,255,255,0.18) 0 2px, rgba(255,255,255,0.04) 2px 8px)',
+  'fizz': 'radial-gradient(circle at 20% 20%, rgba(255,255,255,0.4) 0 2px, transparent 3px), radial-gradient(circle at 80% 60%, rgba(168,85,247,0.35) 0 2px, transparent 3px), radial-gradient(circle at 50% 80%, rgba(255,255,255,0.25) 0 1px, transparent 2px)',
+},
       keyframes: {
         shimmer: {
           '0%': { transform: 'translateX(-35%)' },
