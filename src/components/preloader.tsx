@@ -27,7 +27,7 @@ export function Preloader() {
     <div className="pointer-events-none fixed inset-0 z-[80] flex items-center justify-center bg-white">
       <div className="relative flex flex-col items-center gap-4">
         <div
-          data-preloader-can
+          data-preloader-can=""
           className="relative flex h-40 w-24 items-center justify-center rounded-[1.6rem] border border-yellow-300 bg-gradient-to-b from-yellow-100 via-yellow-200 to-yellow-300 shadow-[0_24px_80px_rgba(0,0,0,0.1)]"
         >
           <div className="absolute inset-x-0 top-5 h-10 bg-gradient-to-r from-transparent via-white/85 to-transparent opacity-70 blur-[1px]" />
